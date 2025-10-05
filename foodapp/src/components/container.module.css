@@ -1,3 +1,7 @@
 .parentContainer {
   display: flex;
+  flex-direction: column; /* Makes children stack vertically */
+  gap: 1rem;              /* Adds space between children */
+  padding: 1rem;          /* Adds padding inside the container */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
 }
